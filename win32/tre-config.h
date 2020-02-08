@@ -24,7 +24,7 @@
 #define TRE_APPROX 1
 
 /* Define to enable multibyte character set support. */
-#define TRE_MULTIBYTE 1
+#undef TRE_MULTIBYTE
 
 /* Define to the absolute path to the system regex.h */
 /* #undef TRE_SYSTEM_REGEX_H_PATH */
@@ -37,7 +37,7 @@
 /* #undef TRE_USE_SYSTEM_REGEX_H */
 
 /* Define to enable wide character (wchar_t) support. */
-#define TRE_WCHAR 1
+#undef TRE_WCHAR
 
 /* TRE version string. */
 #define TRE_VERSION "0.8.0"
