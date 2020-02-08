@@ -32,3 +32,8 @@ Makefile.in
 /configure
 /dist
 /tmp-build
+/win32/.vs/
+/win32/Debug/
+/win32/UpgradeLog.htm
+/win32/Backup/
+
