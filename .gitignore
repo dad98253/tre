@@ -36,4 +36,4 @@ Makefile.in
 /win32/Debug/
 /win32/UpgradeLog.htm
 /win32/Backup/
-
+/win32/Release/
