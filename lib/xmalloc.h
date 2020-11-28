@@ -5,6 +5,10 @@
   See the file LICENSE for details and copyright.
 
 */
+#ifdef MALLOC_DEBUGGING
+#define _CRTDBG_MAP_ALLOC
+#include <crtdbg.h>
+#endif  // MALLOC_DEBUGGING
 
 #ifndef _XMALLOC_H
 #define _XMALLOC_H 1
